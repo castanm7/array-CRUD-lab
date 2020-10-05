@@ -38,7 +38,7 @@ end
 
 describe "remove_element_from_start_of_array" do 
   it "takes in an argument of an array and removes the first element from the array" do 
-    array = ["wow", "I", "am", "really", "learning", "arrays!"]
+    
     expect(remove_element_from_start_of_array(array)).to eq("wow")
   end
 end
